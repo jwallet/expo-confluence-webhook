@@ -20,5 +20,6 @@ var environments = map[Environment]string{
 	Continuous:  "Continuous",
 	Integration: "Integration",
 	Staging:     "Staging",
+	PreProd:     "Pre-Prod",
 	Production:  "Production",
 }

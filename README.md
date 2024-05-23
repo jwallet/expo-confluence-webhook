@@ -4,7 +4,7 @@
 
 Publish [Expo builds](https://expo.dev) to a dedicated [Atlassian Confluence Cloud page](https://support.atlassian.com/confluence-cloud/docs/create-edit-and-publish-a-page/) using an [EAS webhook alert](https://docs.expo.dev/eas/webhooks/).
 
-Updates the page by inserting the build infos and a QRCode for each build environment (e.g.: continuous, staging, production) and platform (android, iOS) to the proper section of the page.
+Updates the page by inserting the build infos and a QRCode for each build environment (e.g.: continuous, staging, preprod, production) and platform (android, iOS) to the proper section of the page.
 
 #### Example of the generated page
 <details>

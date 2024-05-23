@@ -38,6 +38,7 @@ const (
 	Continuous  Environment = "continuous"
 	Integration Environment = "integration"
 	Staging     Environment = "staging"
+	PreProd     Environment = "preprod"
 	Production  Environment = "production"
 )
 
