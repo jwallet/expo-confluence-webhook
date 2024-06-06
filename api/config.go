@@ -20,6 +20,7 @@ const (
 	continuous  Environment = "continuous"
 	integration Environment = "integration"
 	staging     Environment = "staging"
+	preprod     Environment = "preprod"
 	production  Environment = "production"
 )
 
@@ -29,5 +30,6 @@ var environments = map[Environment]string{
 	continuous:  "Continuous",
 	integration: "Integration",
 	staging:     "Staging",
+	preprod:     "Pre-Prod"
 	production:  "Production",
 }
